@@ -31,6 +31,9 @@ yunohost tools upgrade apps
 
 # Upgrade a specific application
 yunohost app upgrade wordpress
+
+# Force an app update or reinstall the current version
+yunohost app upgrade -F APP
 ```
 
 !! If you are upgrading from YunoHost below v4.2.2, `system` and `apps` were flags of the command. Add `--` before them:
